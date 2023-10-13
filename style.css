@@ -9,26 +9,26 @@ body {
 }
 
 .heading-box {
-    margin-top: 35px;
-    margin-left: 34px;
-    background-color: lightgreen;
-    height: 115px;
-    width: 500px;
-    border-radius: 10px;
+    background-color: rgb(29, 134, 148);
+    height: 125px;
+    width: 100%;
+    
 }
 
-.heading-box, h1 {
+.name-heading {
+    display: flex;
+    justify-content: center;
     font-family: sans-serif;
     font-size: 35px;
-    color: black;
-    padding-top: 10px;
-    padding-bottom: 6px;
+    color: white;
+    padding-top: 35px;
     letter-spacing: 4px;
     padding-left: 10px;
+    font-size: 40px;
 }
 
 .heading-box, h4 {
-    color: dodgerblue;
+    color: rgb(151, 177, 179);
     font-size: 18px;
     font-family: cursive;
     padding-left: 12px;
@@ -36,16 +36,29 @@ body {
 
 .contact-box {
     width: 100%;
-    display: flex;
-    background-color: midnightblue;
+    background-color: rgb(183, 216, 213);
     justify-content: end;
+    height: 60px;
+}
+
+.info-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 20px;
 }
 
 a:link, .email-text {
-    color: white;
+    color: blue;
 }
 
+.first-list {
+    margin-right: 15px;
+}
 
+.last-list {
 
+}
 
 
